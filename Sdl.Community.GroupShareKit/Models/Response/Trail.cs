@@ -1,6 +1,6 @@
 ﻿namespace Sdl.Community.GroupShareKit.Models.Response
 {
-    public class Trial
+    public class Trail
     {
 	    public string Action { get; set; }
 	    public string Timestamp { get; set; }

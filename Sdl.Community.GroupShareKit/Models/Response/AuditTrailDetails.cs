@@ -2,9 +2,9 @@
 
 namespace Sdl.Community.GroupShareKit.Models.Response
 {
-    public class AuditTrialDetails
+    public class AuditTrailDetails
     {
 	    public LanguageFileDetails LanguageFile { get; set; }
-	    public List<Trial> Trials { get; set; }
+	    public List<Trail> Trails { get; set; }
     }
 }

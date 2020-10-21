@@ -1254,10 +1254,10 @@ namespace Sdl.Community.GroupShareKit.Clients
         ///  Thrown when the current user does not have permission to make the request.
         ///  </exception>
         ///  <exception cref="ApiException">Thrown when a general API error occurs.</exception>
-        public Task<IReadOnlyList<AuditTrial>> AuditTrial(string projectId)
+        public Task<IReadOnlyList<AuditTrail>> AuditTrail(string projectId)
 	    {
 			Ensure.ArgumentNotNullOrEmptyString(projectId, "projectid");
-		    return ApiConnection.GetAll<AuditTrial>(ApiUrls.AuditTrial(projectId), null);
+		    return ApiConnection.GetAll<AuditTrail>(ApiUrls.AuditTrail(projectId), null);
 		}
 
         #endregion

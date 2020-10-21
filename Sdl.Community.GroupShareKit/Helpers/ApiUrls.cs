@@ -851,7 +851,7 @@ namespace Sdl.Community.GroupShareKit.Helpers
         /// <summary>
         /// Returns the <see cref="Uri"/> that retries the audit trail for all the language files in the given project
         /// </summary>
-        public static Uri AuditTrial(string projectId)
+        public static Uri AuditTrail(string projectId)
 	    {
 		    return "{0}/auditTrail/languageFiles/{1}".FormatUri(CurrentProjectServerUrl, projectId);
 	    }

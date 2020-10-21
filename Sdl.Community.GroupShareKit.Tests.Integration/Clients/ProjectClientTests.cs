@@ -193,10 +193,10 @@ namespace Sdl.Community.GroupShareKit.Tests.Integration.Clients
 	    }
 
         [Fact]
-	    public async Task AuditTrial()
+	    public async Task AuditTrail()
 	    {
 			var groupShareClient = Helper.GsClient;
-		    var auditTrial = await groupShareClient.Project.AuditTrial(ProjectId);
+		    var auditTrail = await groupShareClient.Project.AuditTrail(ProjectId);
 
 			Assert.True(auditTrial?.Count>0);  
 	    }
